@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Data
+Real_Plates/train/*
+Real_Plates/validation/*
+Synthetic_Plates/train/*
+Synthetic_Plates/validation/*
+
 # Distribution / packaging
 .Python
 build/
@@ -26,6 +32,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
